@@ -1,0 +1,28 @@
+body {
+  overflow: hidden;
+
+  color: #525252;
+  font-size: 18px;
+  line-height: 2;
+  font-family: 'Voltaire', 'Helvetica', 'Arial', serif;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+img {
+  padding: 3px;
+
+  border: 2px solid #ccc;
+}
