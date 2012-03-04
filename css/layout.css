@@ -127,9 +127,19 @@ article h1 {
 }
 
 
+#home-wrapper {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../images/bg.jpg);
+  background-repeat: repeat;
+  background-position: top left;
+}
+
 #home {
   width: 100%;
 
+  background: none;
   background-image: url(../images/frontpage.jpg);
   background-position: top center;
 }
