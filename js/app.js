@@ -15,13 +15,13 @@ $(function () {
   });
 
   // --- Load the photos from Flickr
-  var groupId = '1939517@N21'
+  var groupId = '75794156@N02';
 
   $.getJSON('http://api.flickr.com/services/rest/?jsoncallback=?', {
-    method: 'flickr.groups.pools.getPhotos',
-    api_key: 'b9ea2bbfbae76e8986f7f480705b3d04',
+    method: 'flickr.people.getPublicPhotos',
+    api_key: '71dd59ae48c2b2e8bfa703d32b6b7f35',
     format: 'json',
-    group_id: groupId
+    user_id: groupId
   }, function (data) {
     var photos = data.photos.photo;
     photos.length && renderPhotos(photos);
