@@ -1,4 +1,4 @@
-nav.menu {
+div.menu {
   width: 100%;
   height: 200px;
   position: absolute;
@@ -11,54 +11,54 @@ nav.menu {
   text-align: center;
 }
 
-nav.menu .menu-wrapper {
+div.menu .menu-wrapper {
   margin: 0 auto;
   float: none;
 }
 
-nav.menu h1 {
+div.menu h1 {
   border: none;
 }
 
-nav.menu h1 a {
+div.menu h1 a {
   font-size: 50px;
 }
 
-nav.menu h1 a.s-active {
+div.menu h1 a.s-active {
   text-decoration: none;
 }
 
-nav.menu.s-fixed {
+div.menu.s-fixed {
   height: 70px;
   padding-left: 60px;
 }
 
-nav.menu.s-fixed .menu-wrapper {
+div.menu.s-fixed .menu-wrapper {
   float: left;
   width: auto !important;
 }
 
-nav.menu.s-fixed h1 {
+div.menu.s-fixed h1 {
   float: left;
   margin-right: 20px;
 
   border-right: 1px solid #ddd;
 }
 
-nav.menu.s-fixed h1 a {
+div.menu.s-fixed h1 a {
   padding-left: 0;
 
   font-size: 20px;
 }
 
-nav.menu ul {
+div.menu ul {
   display: inline;
   float: left;
   padding: 0;
   margin: 0;
 }
 
-nav.menu ul li {
+div.menu ul li {
   display: block;
   float: left;
   margin: 0;
@@ -67,7 +67,7 @@ nav.menu ul li {
 }
 
 
-nav.menu a {
+div.menu a {
   display: block;
   padding: 15px 30px;
 
@@ -79,14 +79,14 @@ nav.menu a {
   outline: none;
 }
 
-nav.menu a:hover,
-nav.menu a.s-active {
+div.menu a:hover,
+div.menu a.s-active {
   text-decoration: underline;
 }
 
 
 
-section {
+div {
   height: 850px;
   display: block;
   padding: 0 60px;
@@ -100,12 +100,12 @@ section {
   background-size: auto 100%;
 }
 
-article {
+div.article {
   width: 40%;
   float: left;
 }
 
-article h1 {
+div.article h1 {
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -154,7 +154,7 @@ article h1 {
 }
 
 
-#impressum article {
+#impressum div {
   width: 100%;
 }
 
